@@ -5,8 +5,9 @@ You should be able to create a page with or without a layout in a folder and it 
 Installation
 
 1) You know how to install Rails plugins.
-2) Create a directory in "app/views" called "pages" and you can drop your static pages in there.
-3) If you want to use layouts just make a directory in "app/views/layouts" called "pages" and drop your layouts in there.
+2) In your routes.rb file add "PagesKataRoutes.draw(map)" to the bottom of your routes.
+3) Create a directory in "app/views" called "pages" and you can drop your static pages in there.
+4) If you want to use layouts just make a directory in "app/views/layouts" called "pages" and drop your layouts in there.
 
 Usage
 

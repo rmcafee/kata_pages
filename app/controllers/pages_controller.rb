@@ -1,4 +1,5 @@
 class PagesController < ApplicationController
+  before_filter :default
   caches_page :display_page
   
   def display_page
@@ -18,5 +19,9 @@ class PagesController < ApplicationController
           @layout = "pages#{request.path}" unless matching_layout.blank?
         end
       end
+    end
+    
+    def default
+      render(:template => "pages/index") if request.path == "/"
     end
 end
