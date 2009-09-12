@@ -3,7 +3,7 @@ I don't like how some apps or systems give you this database so you can stuff pa
 You should be able to create a page with or without a layout in a folder and it should work.
 
 
-== Installation ==
+== Installation
 
 1) You know how to install Rails plugins.
 2) In your routes.rb file add "PagesKataRoutes.draw(map)" to the bottom of your routes.
@@ -11,19 +11,19 @@ You should be able to create a page with or without a layout in a folder and it 
 4) If you want to use layouts just make a directory in "app/views/layouts" called "pages" and drop your layouts in there.
 
 
-== Usage ==
+== Usage
 
-Example 1: You want an about page at "/about"
+* Example 1: You want an about page at "/about"
 Create your "about.html.erb" or "about.html.haml" template in the app/views/pages directory.
 
-Example 2: You want a nested page at "/members/jim"
+* Example 2: You want a nested page at "/members/jim"
 Create your "jim.html.erb" or "jim.html.haml" template in the app/views/pages/members directory.
 
-Example 3: You want a default page at "/members"
+* Example 3: You want a default page at "/members"
 Create your "index.html.erb" or "index.html.haml" template in the app/views/pages/members directory.
 
-Example 4: You want a different layout for your page at the "/about" path
+* Example 4: You want a different layout for your page at the "/about" path
 Create your "about.html.erb" or "about.html.haml" layout template in the app/views/pages/layouts directory.
 
-Example 5: You want a different layout for everything under "/members" path
+* Example 5: You want a different layout for everything under "/members" path
 Create your "members.html.erb" or "members.html.haml" layout template in the app/views/pages/layouts directory.
