@@ -13,17 +13,17 @@ h2. Installation
 
 h2. Usage
 
-h3. Example 1: You want an about page at "/about"
+Example 1: You want an about page at "/about"
 Create your "about.html.erb" or "about.html.haml" template in the app/views/pages directory.
 
-h3. Example 2: You want a nested page at "/members/jim"
+Example 2: You want a nested page at "/members/jim"
 Create your "jim.html.erb" or "jim.html.haml" template in the app/views/pages/members directory.
 
-h3. Example 3: You want a default page at "/members"
+Example 3: You want a default page at "/members"
 Create your "index.html.erb" or "index.html.haml" template in the app/views/pages/members directory.
 
-h3. Example 4: You want a different layout for your page at the "/about" path
+Example 4: You want a different layout for your page at the "/about" path
 Create your "about.html.erb" or "about.html.haml" layout template in the app/views/pages/layouts directory.
 
-h3. Example 5: You want a different layout for everything under "/members" path
+Example 5: You want a different layout for everything under "/members" path
 Create your "members.html.erb" or "members.html.haml" layout template in the app/views/pages/layouts directory.
