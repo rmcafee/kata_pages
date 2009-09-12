@@ -1,3 +1,5 @@
+h1. Kata Pages
+
 This is a little plugin that gives you instant page support that you can use in the regular Rails template manner.
 I don't like how some apps or systems give you this database so you can stuff page templates in it.
 You should be able to create a page with or without a layout in a folder and it should work.
