@@ -1,6 +1,5 @@
 class PagesController < ApplicationController
   before_filter :default
-  caches_page :display_page
   
   def display_page
     init_layout
